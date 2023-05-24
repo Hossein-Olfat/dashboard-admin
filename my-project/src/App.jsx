@@ -11,7 +11,7 @@ function App() {
   return (
     <div className="bg-[#fdfdfd] w-full h-screen">
       <Header />
-      <div className="flex px-4 mt-1 h-[calc(100vh-28px)]">
+      <div className="flex px-4 mt-1">
         <Sidebar />
         {Routes}
       </div>
