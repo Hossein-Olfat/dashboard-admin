@@ -6,7 +6,7 @@ import { AiOutlineMenu } from "react-icons/ai";
 function Header() {
   return (
     <header className=" w-full h-16 bg-[#fdfdfd] sticky top-0 z-[999]">
-      <section className=" flex justify-between sticky py-3 items-center flex-wrap px-4">
+      <section className=" flex justify-between py-3 items-center flex-wrap px-4">
         <div className=" flex justify-center items-center text-3xl text-[#1e1e87] font-bold mr-16">
           <h1 className=" mr-1">Sabzlearn</h1>
           <IoMdHeart />
@@ -34,7 +34,7 @@ function Header() {
               <img
                 className=" rounded-[50%]"
                 width={"40px"}
-                src="./public/images/profile.jfif"
+                src="../public/images/profile.jpg"
               />
             </div>
           </div>

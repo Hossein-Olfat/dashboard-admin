@@ -9,7 +9,7 @@ function App() {
   const Routes = useRoutes(routes);
 
   return (
-    <div className="bg-[#fdfdfd] w-full h-screen">
+    <div className="bg-[#fdfdfd] w-full">
       <Header />
       <div className="flex px-4 mt-1">
         <Sidebar />
